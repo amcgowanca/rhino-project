@@ -1,0 +1,23 @@
+{
+  "name": "amcgowanca/rhino-project",
+  "description": "Project template for Drupal 8 sites built using Rhino distribution.",
+  "type": "project",
+  "license": "GPL-2.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/amcgowanca/blt"
+    }
+  ],
+  "require": {
+    "acquia/blt": "dev-8.x-amcgowanca"
+  },
+  "require-dev": {},
+  "extra": {
+    "blt": {
+      "new": true
+    }
+  }
+}
